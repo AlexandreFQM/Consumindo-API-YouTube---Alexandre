@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		037D0931A5BB2AC65AF3B5C9 /* Pods_Alexandre_YouTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4D29B60E07CED8C05FA582 /* Pods_Alexandre_YouTube.framework */; };
 		4A29A5AB1DBFBC390038D37C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A29A5AA1DBFBC390038D37C /* AppDelegate.swift */; };
 		4A29A5AD1DBFBC390038D37C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A29A5AC1DBFBC390038D37C /* ViewController.swift */; };
 		4A29A5B01DBFBC390038D37C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A29A5AE1DBFBC390038D37C /* Main.storyboard */; };
 		4A29A5B21DBFBC390038D37C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A29A5B11DBFBC390038D37C /* Assets.xcassets */; };
 		4A29A5B51DBFBC390038D37C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A29A5B31DBFBC390038D37C /* LaunchScreen.storyboard */; };
+		4AF14C4C1DBFF7FE00253CAC /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF14C4B1DBFF7FE00253CAC /* Tools.swift */; };
+		4AF14C4E1DBFFA4700253CAC /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF14C4D1DBFFA4700253CAC /* Videos.swift */; };
+		4AF14C501DC0052600253CAC /* VideosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF14C4F1DC0052600253CAC /* VideosTableViewCell.swift */; };
+		4AF14C5B1DC12EC000253CAC /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF14C5A1DC12EC000253CAC /* YTPlayerView.m */; };
+		4AF14C5D1DC130F900253CAC /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF14C5C1DC130F900253CAC /* PlayerViewController.swift */; };
+		4AF14C5F1DC1346900253CAC /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF14C5E1DC1346900253CAC /* Assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09033E6DB6864CA1BEFACE6F /* Pods-Alexandre-YouTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alexandre-YouTube.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alexandre-YouTube/Pods-Alexandre-YouTube.release.xcconfig"; sourceTree = "<group>"; };
 		4A29A5A71DBFBC390038D37C /* Alexandre-YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alexandre-YouTube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A29A5AA1DBFBC390038D37C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A29A5AC1DBFBC390038D37C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,16 @@
 		4A29A5B11DBFBC390038D37C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A29A5B41DBFBC390038D37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A29A5B61DBFBC390038D37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4704A81DBFCB4C006E5A50 /* Alexandre-YouTube-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alexandre-YouTube-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		4AF14C4B1DBFF7FE00253CAC /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		4AF14C4D1DBFFA4700253CAC /* Videos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+		4AF14C4F1DC0052600253CAC /* VideosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosTableViewCell.swift; sourceTree = "<group>"; };
+		4AF14C591DC12EC000253CAC /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		4AF14C5A1DC12EC000253CAC /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		4AF14C5C1DC130F900253CAC /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		4AF14C5E1DC1346900253CAC /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		848075D808B0AC06463DF42B /* Pods-Alexandre-YouTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alexandre-YouTube.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alexandre-YouTube/Pods-Alexandre-YouTube.debug.xcconfig"; sourceTree = "<group>"; };
+		AA4D29B60E07CED8C05FA582 /* Pods_Alexandre_YouTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alexandre_YouTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				037D0931A5BB2AC65AF3B5C9 /* Pods_Alexandre_YouTube.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B289CB52E5644BE18575873 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D29B60E07CED8C05FA582 /* Pods_Alexandre_YouTube.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4A29A59E1DBFBC390038D37C = {
 			isa = PBXGroup;
 			children = (
+				4A82A3B91DC2B357008B0AFD /* APIs */,
 				4A29A5A91DBFBC390038D37C /* Alexandre-YouTube */,
 				4A29A5A81DBFBC390038D37C /* Products */,
+				6947711401E395B7769B6FAE /* Pods */,
+				3B289CB52E5644BE18575873 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +85,69 @@
 			isa = PBXGroup;
 			children = (
 				4A29A5AA1DBFBC390038D37C /* AppDelegate.swift */,
-				4A29A5AC1DBFBC390038D37C /* ViewController.swift */,
-				4A29A5AE1DBFBC390038D37C /* Main.storyboard */,
 				4A29A5B11DBFBC390038D37C /* Assets.xcassets */,
-				4A29A5B31DBFBC390038D37C /* LaunchScreen.storyboard */,
-				4A29A5B61DBFBC390038D37C /* Info.plist */,
+				4A82A3B71DC2B31F008B0AFD /* Model */,
+				4A82A3BA1DC2B368008B0AFD /* View */,
+				4A82A3BB1DC2B37D008B0AFD /* Controller */,
+				4A82A3B81DC2B337008B0AFD /* Supporting Files */,
 			);
 			path = "Alexandre-YouTube";
+			sourceTree = "<group>";
+		};
+		4A82A3B71DC2B31F008B0AFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4AF14C4D1DBFFA4700253CAC /* Videos.swift */,
+				4AF14C4F1DC0052600253CAC /* VideosTableViewCell.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4A82A3B81DC2B337008B0AFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AF14C4B1DBFF7FE00253CAC /* Tools.swift */,
+				4A29A5B61DBFBC390038D37C /* Info.plist */,
+				4A4704A81DBFCB4C006E5A50 /* Alexandre-YouTube-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A82A3B91DC2B357008B0AFD /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				4AF14C5E1DC1346900253CAC /* Assets */,
+				4AF14C591DC12EC000253CAC /* YTPlayerView.h */,
+				4AF14C5A1DC12EC000253CAC /* YTPlayerView.m */,
+			);
+			name = APIs;
+			sourceTree = "<group>";
+		};
+		4A82A3BA1DC2B368008B0AFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A29A5B31DBFBC390038D37C /* LaunchScreen.storyboard */,
+				4A29A5AE1DBFBC390038D37C /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4A82A3BB1DC2B37D008B0AFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4AF14C5C1DC130F900253CAC /* PlayerViewController.swift */,
+				4A29A5AC1DBFBC390038D37C /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6947711401E395B7769B6FAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				848075D808B0AC06463DF42B /* Pods-Alexandre-YouTube.debug.xcconfig */,
+				09033E6DB6864CA1BEFACE6F /* Pods-Alexandre-YouTube.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A29A5B91DBFBC390038D37C /* Build configuration list for PBXNativeTarget "Alexandre-YouTube" */;
 			buildPhases = (
+				3CDFD09368AD0745B01B3F21 /* [CP] Check Pods Manifest.lock */,
 				4A29A5A31DBFBC390038D37C /* Sources */,
 				4A29A5A41DBFBC390038D37C /* Frameworks */,
 				4A29A5A51DBFBC390038D37C /* Resources */,
+				B3832CCA78AC4D0F1B0FF3EE /* [CP] Embed Pods Frameworks */,
+				5FFF63394F738CBA14CC978F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +185,7 @@
 					4A29A5A61DBFBC390038D37C = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 9N6R94MS45;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A29A5B51DBFBC390038D37C /* LaunchScreen.storyboard in Resources */,
+				4AF14C5F1DC1346900253CAC /* Assets in Resources */,
 				4A29A5B21DBFBC390038D37C /* Assets.xcassets in Resources */,
 				4A29A5B01DBFBC390038D37C /* Main.storyboard in Resources */,
 			);
@@ -131,13 +222,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CDFD09368AD0745B01B3F21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FFF63394F738CBA14CC978F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alexandre-YouTube/Pods-Alexandre-YouTube-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3832CCA78AC4D0F1B0FF3EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alexandre-YouTube/Pods-Alexandre-YouTube-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A29A5A31DBFBC390038D37C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF14C501DC0052600253CAC /* VideosTableViewCell.swift in Sources */,
+				4AF14C5D1DC130F900253CAC /* PlayerViewController.swift in Sources */,
 				4A29A5AD1DBFBC390038D37C /* ViewController.swift in Sources */,
+				4AF14C4E1DBFFA4700253CAC /* Videos.swift in Sources */,
 				4A29A5AB1DBFBC390038D37C /* AppDelegate.swift in Sources */,
+				4AF14C4C1DBFF7FE00253CAC /* Tools.swift in Sources */,
+				4AF14C5B1DC12EC000253CAC /* YTPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +325,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -230,6 +375,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -256,26 +402,35 @@
 		};
 		4A29A5BA1DBFBC390038D37C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848075D808B0AC06463DF42B /* Pods-Alexandre-YouTube.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9N6R94MS45;
 				INFOPLIST_FILE = "Alexandre-YouTube/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.furquimalexandre.Alexandre-YouTube";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alexandre-YouTube-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		4A29A5BB1DBFBC390038D37C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09033E6DB6864CA1BEFACE6F /* Pods-Alexandre-YouTube.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9N6R94MS45;
 				INFOPLIST_FILE = "Alexandre-YouTube/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.furquimalexandre.Alexandre-YouTube";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alexandre-YouTube-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +454,7 @@
 				4A29A5BB1DBFBC390038D37C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
